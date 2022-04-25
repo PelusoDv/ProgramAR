@@ -1,8 +1,10 @@
 body {
-	background-color: #F7E9E0;
+	background-color: #F3F0EF;
 	color: #212F3D;
 	margin: 50px 0px 50px 2%;
 	text-align: justify;
+	border-style: groove;
+	padding: 10px 5px 10px 10px;
 }
 
 div, section {

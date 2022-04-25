@@ -5,18 +5,24 @@
 
     <meta charset="utf-8">
     <title>Papafrita</title>
+    <link rel="stylesheet" type="text/css" href="Papafrita Style.css">
 
 </head>
 
-<body bgcolor="#D4E6F1" text="#641E16">
+<body>
 
     <header>
         <h1><u>PRIMERA PAGINA DE PRUEBA</u></h1>
          <p><font size="4">"Esta pagina fue pura y exclusivamente creada para experimentacion propia sobre las diferentes etiquetas de HTML, sus caracteristicas y resultado final que se muestra en la pagina terminada."</font></p>
     </header>
 
+    <aside>
+        <iframe src="https://www.manualweb.net/html/listas-html/"></iframe>
+    </aside>
+
     <!-- Normalmente despúes del encabezado (header) y/o navegador (nav), va una sección(section) con articulos (articles). Acá no las puse por los titulos en "H". Dentro de una sección o articulo el tamaño "h1" se achica al mismo que "h2" y en el caso de un articulo dentro de una sección se achica mas. EJEMPLOS AL FINAL DE ESTA PARTE -->
 
+    <div>
         <h2>Esta es una lista desordenada de titulos con diferentes tamaños:</h2>
 
         <ul>
@@ -45,9 +51,9 @@
             </article>
         </section>
 
-        <p><i>Conclución: Los titulos en "H1" supongo son para encabezados, luego los "H2" para los titulos de los temas de las secciones y los "H3" para los titulos de los articulos.<br/>
-        Obviamente los textos irian en parrafos sin marcadores.</i></p> 
-    
+        <p><i>Conclución: Los titulos en "H1" supongo son para encabezados, luego los "H2" para los titulos de los temas de las secciones y los "H3" para los titulos de los articulos. Obviamente los textos irian en parrafos sin marcadores.</i></p> 
+    </div>
+
     <!-- Y bueno, todo esto deberia ser, probablemente, un articulo  parte de la sección que empezara a partir de acá, pero debido a la manera que los navegadores basados en chromium manejan el "orden de relevancia" con los marcadores semanticos, quedo fuera para poder ejemplificar los diferentes tamaños de los titulos "H" -->
 
     <section> 
@@ -73,14 +79,33 @@
             <li><sub>Parrafo subscripto</sub> Ej: H<sub>2</sub>O</li> <br/>
             <li><sup>Gud sup</sup> Ej: 3<sup>2</sup></li>
         </ol>
+
+        <h2>Ahora probemos con añadir colores</h2>
+
+        <ul> <b>HTML STYLE</b>
+            <li style="color:blue;">LETRA AZUL</li>
+            <li style="color:red;">LETRA ROJA</li>
+            <li style="color:green;">LETRA VERDE</li>
+            <br>
+            <b>CSS STYLE</b>
+            <li class="green">LETRA VERDE</li>
+            <li class="red">LETRA ROJA</li>
+            <li class="blue">LETRA AZUL</li>
+            <br>
+            <b>MARKER COLOR (por defecto el resaltador es amarillo)</b>
+            <li><mark class="markgreen">RESALTADOR VERDECITO</mark></li>
+            <li><mark class="markpink">RESALTADOR ROSADITO</mark></li>
+            <li><mark class="markblue">RESALTADOR CELESTITO</mark></li>
+            <br>
+            Y asi podemos seguir cambiando el color de todo lo que se nos cante las pelotas.
+        </ul>
+
     </section>
 
-    <aside>
-        <iframe src="https://www.manualweb.net/html/listas-html/" width="60%" height="400"></iframe>
-    </aside>
+    
 
     <footer>
-        <img src="ay-lupe-nacio-meme-viral.jpg" alt="chango ayno" width="40%">
+        <img src="ay-lupe-nacio-meme-viral.jpg" alt="chango ayno" width="498">
     </footer>
     
 </body>

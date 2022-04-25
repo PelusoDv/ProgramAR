@@ -1,0 +1,59 @@
+body {
+	background-color: #F7E9E0;
+	color: #212F3D;
+	margin: 50px 0px 50px 2%;
+	text-align: justify;
+}
+
+div, section {
+	margin-right: 25%;
+}
+
+header {
+	text-align: center;
+	margin-right: 2%;
+}
+
+header h1 {
+	color: #641E16;
+}
+
+header p {
+	color: #212F3D;
+}
+
+aside {
+	height: 1920px;
+	float: right;
+	position: static;
+	width: 20%;
+}
+
+aside iframe {
+	height: 100%;
+	width: 100%;
+}
+
+.green{
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color:  red;
+}
+
+.markgreen {
+	background-color: lightgreen;
+}
+
+.markpink {
+	background-color: lightpink;
+}
+
+.markblue {
+	background-color: lightblue;
+}

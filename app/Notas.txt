@@ -1,0 +1,24 @@
+//Realizar en CMD
+
+NodeJS tiene que estar instalado en tu PC, 
+verificar utilizando el comando "node";
+
+Luego TSC(TypeScript Compiler) tambien es necesario,
+utilizar el comando "nmp install -g typescript" para instalarlo,
+verificar con el comando "tsc -v"
+
+//Como copilar un archivo "x.ts" a "x.js":
+en una terminal (sea VSC o CMD) posicionado en la carpeta del archivo,
+ejecutar el comando "tsc x.ts" para transformar el archivo "x.ts" a "x.js"
+
+//Para modificar la manera predefinida de compilacion:
+ejecutar el comando "tsc --init", creara un archivo "tsconfig.json"
+esto permite ejecutar el comando "tsc" en la terminal que compilara todos los archivos "x.ts"
+
+//Crear un servidor de pruebas:
+en un terminal (posicionado en la carpeta de un proyecto),
+ejecutar el comando "npm install http-server", que creara la carpeta "node_module",
+ejecutar el comando "npm init", lo que añadira los metadatos necesarios en el archivo "package.json"
+en este ultimo configurar la entrada "scripts" añadiendole: "start": "http-server -p 8436"
+finalmente ejecutar el comando "npm start" en la terminal
+asi podremos testear el proyecto ingresando en un navegador a la url "http://127.0.0.1:8436"
